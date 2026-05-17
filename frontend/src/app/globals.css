@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+}
+
+.prose-post b {
+  @apply font-semibold text-slate-900;
+}
+.prose-post p {
+  @apply my-3 leading-relaxed text-slate-700;
+}
+.prose-post ol {
+  @apply list-decimal pl-6 my-3 space-y-1 text-slate-700;
+}
+.prose-post ul {
+  @apply list-disc pl-6 my-3 space-y-1 text-slate-700;
+}
+.prose-post br {
+  @apply block my-2;
+}
